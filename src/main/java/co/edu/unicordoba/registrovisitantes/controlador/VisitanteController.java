@@ -5,8 +5,11 @@ import co.edu.unicordoba.registrovisitantes.servicio.VisitanteService;
 import co.edu.unicordoba.registrovisitantes.util.TextoUtil;
 import org.springframework.web.bind.annotation.*;
 
+<<<<<<< HEAD
 import java.net.InetAddress;
 import java.time.Instant;
+=======
+>>>>>>> 05622a388b9a18919712147de06d6d4037373e25
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,11 +20,14 @@ public class VisitanteController {
 
     private final VisitanteService servicio;
 
+<<<<<<< HEAD
     // De CLASE: se fija una sola vez, al cargar la clase (Taller 02,
     // Paso 2). Es la huella de la JVM que atiende la petición: no
     // sobrevive a un reinicio ni se comparte entre dos contenedores.
     private static final Instant ARRANQUE = Instant.now();
 
+=======
+>>>>>>> 05622a388b9a18919712147de06d6d4037373e25
     // Inyección por CONSTRUCTOR: NO es static. Spring crea este
     // controlador una sola vez y le entrega, por parámetro, el bean
     // VisitanteService que ya tiene administrado.
@@ -54,6 +60,7 @@ public class VisitanteController {
     }
 
     /**
+<<<<<<< HEAD
      * Taller 02, Paso 2: identifica QUÉ proceso/JVM atendió la
      * petición. Sirve para el Paso 7 (reinicio) y el Paso 8 (dos
      * contenedores de la misma imagen).
@@ -69,6 +76,8 @@ public class VisitanteController {
     }
 
     /**
+=======
+>>>>>>> 05622a388b9a18919712147de06d6d4037373e25
      * Paso 6: el experimento que revela la diferencia.
      * Crea un Visitante y NO lo guarda en el servicio (no llega a la
      * lista de instancia), pero SÍ incrementa el contador static de la

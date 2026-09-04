@@ -1,7 +1,10 @@
 # registro-visitantes
 
 Taller 01: *del `new` al contenedor* — Programación III (Instancia y `static`)
+<<<<<<< HEAD
 Taller 02: *del `localhost` a la nube* — despliegue con GitHub, Docker y Render
+=======
+>>>>>>> 05622a388b9a18919712147de06d6d4037373e25
 Universidad de Córdoba — Ing. de Sistemas · Docente: Mag. Alberto Paternina León
 
 API REST en Spring Boot que registra visitantes y sirve para comprobar,
@@ -47,7 +50,10 @@ src/main/java/co/edu/unicordoba/registrovisitantes
 | GET    | `/api/visitantes/conteos`       | Compara contador de instancia vs. contador static |
 | GET    | `/api/visitantes/normalizar`    | Normaliza un texto usando `TextoUtil` (static) |
 | POST   | `/api/visitantes/fantasma`      | Paso 6: crea un objeto sin guardarlo           |
+<<<<<<< HEAD
 | GET    | `/api/visitantes/instancia`     | Taller 02: host, arranque de la JVM y conteos  |
+=======
+>>>>>>> 05622a388b9a18919712147de06d6d4037373e25
 
 ### Pruebas con curl
 
@@ -128,6 +134,7 @@ La diferencia clave para el informe: el Error A es un **fallo en
 ejecución** (`null` silencioso); el Error B es un **fallo en
 compilación** (el compilador lo detiene antes de arrancar).
 
+<<<<<<< HEAD
 ## Taller 02: despliegue con Docker y Render
 
 ### Probar la imagen localmente
@@ -225,6 +232,8 @@ no lo borra de git. Un secreto publicado se rota, no se "limpia"; la
 configuración sensible va en variables de entorno de Render, nunca en
 el repositorio.
 
+=======
+>>>>>>> 05622a388b9a18919712147de06d6d4037373e25
 ## Idea central de la sesión
 
 - **Instancia:** lo que es de cada objeto. Requiere `new`, dispone de `this`.
