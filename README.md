@@ -1,5 +1,10 @@
 # registro-visitantes
 
+Integrantes:
+Valentina Miranda Prasca
+Juan Manuel Galvis lopez
+Diego Fernando Mendoza Hoyos
+
 Taller 01: *del `new` al contenedor* — Programación III (Instancia y `static`)
 Taller 02: *del `localhost` a la nube* — despliegue con GitHub, Docker y Render
 Universidad de Córdoba — Ing. de Sistemas · Docente: Mag. Alberto Paternina León
